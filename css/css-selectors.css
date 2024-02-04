@@ -1,0 +1,29 @@
+ul {
+  margin-left: "-40px";
+  margin-top: "-20px";
+  list-style-position: inside;
+}
+
+li {
+  color: chartreuse;
+}
+
+.class-example {
+  color: blueviolet;
+}
+
+#id-example {
+  color: green;
+}
+
+li[draggable] {
+  color: blue;
+}
+
+li[draggable="true"] {
+  color: red;
+}
+
+* {
+  text-align: center;
+}
