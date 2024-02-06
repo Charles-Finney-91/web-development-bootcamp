@@ -1,0 +1,19 @@
+html {
+  background-color: #fff7f1;
+}
+
+.navbar {
+  background-color: #84d1ca;
+  width: 100%;
+  height: 50px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.page-title {
+  color: #f1566b;
+}
+
+.page-subtitle {
+  color: #d0ac87;
+}

@@ -1,0 +1,54 @@
+html {
+  font-size: 10px;
+  text-align: center;
+}
+
+ul {
+  font-size: 30px;
+}
+
+.pixels {
+  font-size: 20px;
+}
+.points {
+  font-size: 20pt;
+}
+.ems {
+  font-size: 0.75em;
+}
+.rems {
+  font-size: 2rems;
+}
+
+.helvetica {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.serif {
+  font-family: serif;
+}
+.arial {
+  font-family: Arial;
+}
+.cursive {
+  font-family: cursive;
+}
+.monospace {
+  font-family: monospace;
+}
+
+.lighter {
+  font-weight: lighter;
+}
+.normal {
+  font-weight: normal;
+}
+.bold {
+  font-weight: bold;
+}
+.bolder {
+  font-weight: bolder;
+}
+
+.google-fonts {
+  font-family: "Protest Revolution", sans-serif;
+}
