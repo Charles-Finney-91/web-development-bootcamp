@@ -1,0 +1,45 @@
+html {
+  background-color: bisque;
+  background-color: antiquewhite; /*This is more important*/
+}
+
+ol {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; /*This is more important than ul tag*/
+  font-size: 10px;
+}
+
+li {
+  font-size: 20px; /*This is more important than the previous one, eventhough same tag*/
+}
+
+.one {
+  color: red;
+}
+
+.dho {
+  color: blue;
+}
+
+.two {
+  color: green; /*This is more important since it is lower, irrespective of what order the class is mentioned in html*/
+}
+
+#five {
+  color: brown; /* This is more important than the class below, eventhough it is below */
+}
+
+.five {
+  color: green;
+}
+
+li[draggable] {
+  color: yellowgreen; /* Attribute is more important than a class. even though class is below*/
+}
+
+.four {
+  color: salmon;
+}

@@ -1,0 +1,16 @@
+h1,
+h2 {
+  color: blueviolet;
+}
+
+.box > .heading {
+  color: firebrick;
+}
+
+.box li {
+  color: blue;
+}
+
+.descendent#chain {
+  color: seagreen;
+}
