@@ -1,0 +1,38 @@
+div {
+  width: 500px;
+  height: 500px;
+  margin: 0px;
+  padding: 0px;
+  border: 1px black solid;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+}
+
+.cat-container {
+  float: left;
+  background-color: antiquewhite;
+}
+
+.cat-container > img {
+  float: left;
+}
+
+.dog-container {
+  float: right;
+  background-color: antiquewhite;
+}
+
+.dog-container > img {
+  float: left;
+}
+
+footer {
+  clear: both;
+  width: 100%;
+  text-align: center;
+  background-color: bisque;
+}

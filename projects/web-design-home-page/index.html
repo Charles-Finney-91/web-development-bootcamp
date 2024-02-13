@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Design</title>
+    <style>
+      html {
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        background-color: black;
+        margin: 0px;
+        padding: 0px;
+      }
+      .header {
+        width: 100%;
+        height: 100px;
+      }
+      .header > .logo {
+        display: inline-block;
+        width: 15%;
+        height: 70%;
+        position: relative;
+        top: 15px;
+        left: 15px;
+        text-align: center;
+      }
+      .header > .logo > .circle {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        margin-top: 25px;
+        background-color: goldenrod;
+      }
+      .header > .logo > .title {
+        display: inline-block;
+      }
+      .header > .nav {
+        display: inline-block;
+        width: 20%;
+        height: 70%;
+        position: relative;
+        left: 20%;
+        text-align: center;
+      }
+      .header > .nav > ul > li {
+        display: inline-block;
+        text-decoration: none;
+        padding-right: 20px;
+        position: relative;
+        top: 10px;
+      }
+      .header > .auth {
+        display: inline-block;
+        float: right;
+      }
+      .header > .auth > ul > li {
+        display: inline-block;
+        text-decoration: none;
+        padding-right: 20px;
+        position: relative;
+        top: 10px;
+      }
+      .content {
+        width: 100%;
+        height: 100%;
+        text-align: center;
+      }
+      .content > h1 > span {
+        width: 100%;
+        height: 500px;
+        color: goldenrod;
+        font-size: 50px;
+      }
+      .content > img {
+        width: 700px;
+        height: 600px;
+        z-index: -1;
+      }
+      .content > .left-text {
+        display: inline-block;
+        width: 35%;
+        position: absolute;
+        right: 60%;
+        top: 67%;
+      }
+      .content > .right-text {
+        display: inline-block;
+        width: 40%;
+        position: absolute;
+        left: 60%;
+        top: 70%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <div class="logo">
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="title">WEB DESIGN</div>
+      </div>
+      <div class="nav">
+        <ul>
+          <li style="color: goldenrod">HOME</li>
+          <li>ABOUT</li>
+          <li>FUN</li>
+        </ul>
+      </div>
+      <div class="auth">
+        <ul>
+          <li>LOGIN</li>
+          <li style="color: goldenrod">|</li>
+          <li>REGISTER</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="content">
+      <h1>
+        We make <span>designs</span> that resound throughout the
+        <span>universe</span>.
+      </h1>
+      <img src="./assets/pics/dark-door.jpg" alt="dark door" />
+      <div class="left-text">
+        <p>
+          <span style="color: goldenrod">Lorem ipsum</span> dolor sit amet,
+          consectetur adipiscing elit. Vivamus vitae purus rhoncus, molestie
+          tortor in, varius augue. Maecenas pulvinar ut elit a ornare. Mauris
+          pretium ligula non felis consequat consectetur. Orci varius natoque
+          penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+        </p>
+      </div>
+      <div class="right-text">
+        <span style="color: goldenrod">Lorem ipsum</span> dolor sit amet,
+        consectetur adipiscing elit. Vivamus vitae purus rhoncus, molestie
+        tortor in, varius augue. Maecenas pulvinar ut elit a ornare. Mauris
+        pretium ligula non felis consequat consectetur. Orci varius natoque
+        penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="copyright"></div>
+      <div class="quote"></div>
+    </div>
+  </body>
+</html>
