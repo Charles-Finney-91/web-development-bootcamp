@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FlexBox</title>
+    <style>
+      html {
+        background-color: black;
+        color: white;
+      }
+      .container {
+        display: flex;
+        gap: 10px;
+      }
+      .container > ul {
+        display: flex;
+        gap: 3rem;
+      }
+      .container > ul > li {
+        list-style: none;
+        position: relative;
+        top: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">TITLE</h1>
+      <ul>
+        <li>HOME</li>
+        <li>SERVICES</li>
+        <li>PRODUCTS</li>
+        <li>CAREER</li>
+        <li>ABOUT</li>
+      </ul>
+    </div>
+  </body>
+</html>
